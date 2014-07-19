@@ -1,0 +1,27 @@
+import math
+first = "Kiril"
+last = "Nikolov"
+age = 29
+
+print first, last, age
+
+value = math.sqrt(81);
+print value
+
+sideA = 12.55
+sideB = 17.85
+value = (sideA * sideA) + (sideB * sideB)
+sideC = math.sqrt(value);
+
+print sideC
+
+operand1 = 95
+operand2 = 64.5
+
+print operand1, "+", operand2, "=", operand1 + operand2
+print operand1, "-", operand2, "=", operand1 - operand2
+print operand1, "*", operand2, "=", operand1 * operand2
+print operand1, "/", operand2, "=", operand1 / operand2
+print operand1, "%", operand2, "=", operand1 % operand2
+
+#even if a variable changes, the print command would not have to change.
